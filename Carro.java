@@ -1,8 +1,14 @@
 public class Carro{
     
     //variaveis de instancia
-    public String modelo;
-    public String placa;
+    private String modelo;
+    private String placa;
+
+    //construtor
+    public Carro(String m, String p){
+        setModelo(m);
+        setPlaca(p);
+    }
 
     //setters
     public void setModelo(String m){
@@ -13,7 +19,6 @@ public class Carro{
     }
 
     //getters
-    //setters
     public String getModelo(){
         return modelo;
     }
