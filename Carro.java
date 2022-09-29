@@ -1,8 +1,8 @@
 public class Carro{
     
     //variaveis de instancia
-    private String modelo;
-    private String placa;
+    public String modelo;
+    public String placa;
 
     //setters
     public void setModelo(String m){
